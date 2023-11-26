@@ -1,0 +1,44 @@
+.root {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 1024px;
+    width: auto;
+    background-image: url(/imgs/login-back\ ground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+
+}
+
+#container {
+    width: 467px;
+    height: 735px;
+    flex-shrink: 0;
+    border-radius: 11px;
+    background: #FFF;
+    /* mix-blend-mode: lighten; */
+    margin: 110px auto;
+
+}
+
+#login {
+    background-color: white;
+    width: 155px;
+    height: 71px;
+    flex-shrink: 0;
+    color: #000000;
+    text-align: center;
+    font-family: Palanquin Dark;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    position: absolute;
+    margin: 36px 166px 628px 146px;
+
+
+
+}
