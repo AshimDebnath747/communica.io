@@ -101,7 +101,7 @@ header{
 /*NAV BAR END*/
 /*banner start*/
 #banner{
-    
+    background-color: #ffffff;
     padding: 7px;
     margin: 10px;
 
@@ -130,7 +130,7 @@ header{
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: minmax(300px,auto);
   grid-row-gap:20px;
-  grid-column-gap:60px;
+  grid-column-gap:40px;
   padding: 5px;
   margin: 10px;
   
@@ -139,6 +139,9 @@ header{
     font-family: 'Gabarito', sans-serif;
    font-family: 'Montserrat', sans-serif;
    font-family: 'Palanquin Dark', sans-serif;
+   background-color: #ffffff;
+   margin: 3px;
+   padding: 16px;
    
    
 }
@@ -153,3 +156,24 @@ header{
     grid-column: 2/3;
     grid-row:2/4;
 }
+#community_tab {
+    font-family: 'Gabarito', sans-serif;
+   font-family: 'Montserrat', sans-serif;
+   font-family: 'Palanquin Dark', sans-serif;
+}
+#community_tab div{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   height: 400px;
+   align-items: center;
+   
+}
+#community_tab section{
+    background-color: #ffffff;
+    height: 350px;
+    width: 350px;
+    padding: 15px;
+    margin: 10px;
+}
+
