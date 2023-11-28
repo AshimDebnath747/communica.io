@@ -1,6 +1,12 @@
 body{
     padding: 5px;
-    margin: 7px;   
+    margin: 7px; 
+    height: 2201px;
+    width: auto;
+    background-image: url(/imgs/community_based_website_background.png);
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;  
 }
 /*NAV BAR*/
 header{
