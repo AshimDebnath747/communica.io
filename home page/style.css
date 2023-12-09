@@ -177,3 +177,7 @@ header{
     margin: 10px;
 }
 
+#search_btn{
+    border: none;
+    background-color: #D7EAF3;
+}
