@@ -8,7 +8,7 @@ body{
     background-attachment: scroll;
     background-size: cover;  
 }
-/*NAV BAR*/
+
 header{
     display: flex;
 }
