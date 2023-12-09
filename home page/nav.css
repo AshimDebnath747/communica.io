@@ -1,3 +1,6 @@
+header{
+    display: flex;
+}
 #search_bar input{
     border: none;
     background-color: #D7EAF3;
