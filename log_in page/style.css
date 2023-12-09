@@ -6,7 +6,7 @@
 body {
     height: 1024px;
     width: auto;
-    background-image: url(../imgs/login-back\ ground.jpg);
+    background-image: url(imgs/login-back\ ground.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;
