@@ -8,7 +8,7 @@ body{
     margin: 7px; 
     height: 2201px;
     width: auto;
-    background-image: url(/imgs/community_based_website_background.png);
+    background-image: url(../imgs/community_based_website_background.png);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-size: cover;  
