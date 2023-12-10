@@ -9,6 +9,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Palanquin+Dark&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Actor&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 
@@ -17,7 +20,7 @@
         <!--This is logo and name of the website-->
         <section id="logo_name">
             <img src="../imgs/image 1.png" alt="logo">
-            <a href="">COMMUNICA</a>
+            <a href="/index.html">COMMUNICA</a>
         </section>
         <!--end -->
     </header>
@@ -25,24 +28,28 @@
     <div id="container">
         <h3 id="login">Login</h3>
         <!-- input area -->
-        <p>username</p>
-        <input type="text" placeholder="enter username">
-        <p>password</p>
-        <input type="password" placeholder="enter password">
+        <p id="username">username</p>
+        <input type="text" placeholder="enter username" id="nameinput" >
+        <p id="pass">password</p>
+        <input type="password" placeholder="enter password" id="passinput">
         <!-- end of input area -->
 
-        <a href="#">forget password?</a>
+        <a href="#" id="forget">forget password?</a>
 
-        <button>LOGIN</button>
+        <button id="login_btn">LOGIN</button>
 
         <!-- alternate signup option -->
 
-        <p>Or signup using</p>
-        <i class="fa-brands fa-facebook"></i>
-        <i class="fa-brands fa-x-twitter"></i>
+        <p id="signupway">Or signup using</p>
+       <div class="icon">
+        <i style="color: rgb(0, 47, 255);" class="fa-brands fa-facebook"></i>
+        <i style="color: rgb(255, 250, 250);background: #000;"style="color: blue;" class="fa-brands fa-x-twitter"></i>
         <i class="fa-brands fa-google"></i>
+       </div>
 
-        <a href="signup/signup.html">Signup</a>
+        <div class="signup">
+            <a href="signup/signup.html">Signup</a>
+        </div>
 
 
 

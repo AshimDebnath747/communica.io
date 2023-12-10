@@ -46,4 +46,115 @@ body {
     padding: 0px;
 
     margin-top: 5px;
+}header {
+    display: flex;
+    width: 1179.660;
+}
+
+#search_bar input {
+    border: none;
+    background-color: #D7EAF3;
+
+}
+
+#search_bar i {
+    color: #05386B;
+    margin: 5px;
+
+
+
+}
+
+#search_bar ::placeholder {
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Palanquin Dark', sans-serif;
+    width: 142px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+#navigation-elements {
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Palanquin Dark', sans-serif;
+    margin-left: 43px;
+    margin-top: 12px;
+    display: flex;
+
+}
+
+#navigation-elements div {
+    display: flex;
+    flex-direction: column;
+    margin-left: 40px;
+    margin-right: 40px;
+    align-items: center;
+    text-align: center;
+}
+
+#navigation-elements div a {
+    text-decoration: none;
+    color: #05386B;
+    width: 111px;
+
+
+}
+
+#login {
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    background-color: #05386B;
+    height: 80px;
+    width: 90px;
+    margin-left: 50px;
+}
+
+#login a {
+    text-decoration: none;
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Palanquin Dark', sans-serif;
+    color: #D7EAF3;
+
+}
+
+/*NAV BAR END*/
+#search_btn {
+    border: none;
+    background-color: #D7EAF3;
+}
+
+#logo_name a {
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Palanquin Dark', sans-serif;
+    text-decoration: none;
+    width: 95px;
+    height: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 0px;
+    color: #05386B;
+}
+#logo_name img{
+    margin-left: 30px;
+}
+
+
+
+
+#search_bar {
+    display: flex;
+    height: 20px;
+    background-color: #D7EAF3;
+    width: 200px;
+    height: 30px;
+    margin-left: 94px;
+    margin-top: 12px;
+
+
 }
