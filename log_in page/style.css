@@ -76,6 +76,7 @@ body {
     border: solid rgb(199, 190, 190);
     border-radius: 20px;
     background-color: #c1ddee;
+    text-indent: 15px;
 
 }
 
@@ -96,7 +97,11 @@ body {
     border: solid rgb(199, 190, 190);
     border-radius: 20px;
     background-color: #c1ddee;
+    text-indent: 15px;
+    
 }
+
+
 
 #forget {
     position: relative;
@@ -173,7 +178,7 @@ box-shadow: -5px -5px 10px 0px rgba(255, 255, 255, 0.5), 5px 5px 10px 0px rgba(0
 .icon{
     position: relative;
     width: 120px;
-    left: 140px;
+    left: 137px;
     top: 69px;
     height: 19px;
 
