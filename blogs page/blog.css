@@ -121,11 +121,6 @@ body {
 
 }
 
-/*NAV BAR END*/
-#search_btn {
-    border: none;
-    background-color: #D7EAF3;
-}
 
 #logo_name a {
     font-family: 'Gabarito', sans-serif;
@@ -144,17 +139,27 @@ body {
     margin-left: 30px;
 }
 
-
-
-
-#search_bar {
-    display: flex;
-    height: 20px;
+#search_bar input {
+    border: none;
     background-color: #D7EAF3;
-    width: 200px;
-    height: 30px;
-    margin-left: 94px;
-    margin-top: 12px;
+
+}
+
+#search_bar i {
+    color: #05386B;
+    margin: 5px;
+
 
 
 }
+
+#search_bar ::placeholder {
+    font-family: 'Gabarito', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Palanquin Dark', sans-serif;
+    width: 142px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+
